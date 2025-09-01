@@ -28,8 +28,9 @@ struct FocusPlugApp: App {
                     timerManager.setupNotifications()
                 }
         }
-        .windowResizability(.contentSize)
+        .windowResizability(.contentMinSize)
         .defaultSize(width: 600, height: 700)
+        .windowMinimumSize(width: 400, height: 500)
         
         MenuBarExtra("Focus Plug", systemImage: "brain.head.profile") {
             MenuBarView()
