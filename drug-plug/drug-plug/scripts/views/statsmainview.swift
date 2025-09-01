@@ -5,9 +5,6 @@
 //  Created by Morris Romagnoli on 31/08/2025.
 //
 
-
-
-
 import SwiftUI
 
 struct StatsMainView: View {
@@ -81,9 +78,6 @@ struct StatsMainView: View {
             }
             
             Spacer()
-        }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-    }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
