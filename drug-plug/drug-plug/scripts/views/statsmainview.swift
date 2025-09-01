@@ -20,11 +20,6 @@ struct StatsMainView: View {
                 .font(.title2.weight(.bold))
                 .foregroundColor(.black)
                 .padding(.top, 24)
-        VStack(spacing: 24) {
-            // Header
-            Text("Your Focus Journey")
-                .font(.title2.weight(.bold))
-                .foregroundColor(.black)
             
             // Today's Stats
             VStack(alignment: .leading, spacing: 20) {
@@ -86,6 +81,9 @@ struct StatsMainView: View {
             }
             
             Spacer()
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+    }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
     }

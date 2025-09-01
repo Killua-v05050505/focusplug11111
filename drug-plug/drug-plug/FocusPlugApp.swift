@@ -29,7 +29,7 @@ struct FocusPlugApp: App {
                 }
         }
         .windowResizability(.contentSize)
-        .defaultSize(width: 600, height: 700, depth: .zero)
+        .defaultSize(width: 600, height: 700)
         
         MenuBarExtra("Focus Plug", systemImage: "brain.head.profile") {
             MenuBarView()
